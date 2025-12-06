@@ -195,7 +195,7 @@ If you do not have MySQL and MySQL Workbench, you can use docker.
 
 I have use `Docker version 29.1.2, build 890dcca`
 
-Here are the `compose.yml` that I used (**Don not Use in production**)
+Here is the `compose.yml` that I used (**Don not Use in production**)
 ```yaml
 services:
   db:
