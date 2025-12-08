@@ -1,6 +1,6 @@
 ## 📄 Description - Exercise Statement
 
-This is the eighth task for **Sprint 2 Databases** in the **Backend Java Course** in ITAcademy (Barcelona, Spain).
+This is the first task for **Sprint 2 Databases** in the **Backend Java Course** in ITAcademy (Barcelona, Spain).
 There are 3 levels with exercises. Only levels 1 and 2 done.
 
 ## Level 1
