@@ -35,14 +35,14 @@ INSERT INTO opticsSch.supplier (supplier_id, supplier_name, supplier_phone, supp
 (4,'Romanini','934502020','934502021','B56789234',7),
 (5,'Ferali','935602318','935602319','B67892345',6);
 
-INSERT INTO opticsSch.glasses (glasses_id, supplier_supplier_id, glasses_brand, glasses_graduation_left, glasses_graduation_right, glasses_lens_color, glasses_frame_type, glasses_frame_color, glasses_price) VALUES
-(1,1,'GlassGlass',-1.00,-1.00,'Transparent','Pasta','Marrón',45),
-(2,2,'Indo One',-2.50,-2.50,'Transparent','Pasta','Negro',60),
-(3,2,'Indo One',-1.50,-1.75,'Oscuro','Pasta','Azul',71),
-(4,4,'GreenGreen',1.25,1.75,'Transparente','Flotante','Verde',80),
-(5,1,'GlassGlass',-3.20,-3.75,'Oscuro','Flotante','Naranje',51),
-(6,3,'Affledour Start',-4.20,-4.20,'Oscuro','Metálica','Aluminio',80),
-(7,3,'Affledour Start',-3.25,-3.25,'Transparente','Metálica','Aluminio',75);
+INSERT INTO opticsSch.glasses (glasses_id, supplier_supplier_id, glasses_brand, glasses_graduation_left, glasses_graduation_right, glasses_lens_color_left,  glasses_lens_color_rigth, glasses_frame_type, glasses_frame_color, glasses_price) VALUES
+(1,1,'GlassGlass',-1.00,-1.00,'Transparente','Transparente','Pasta','Marrón',45),
+(2,2,'Indo One',-2.50,-2.50,'Transparente','Transparente','Pasta','Negro',60),
+(3,2,'Indo One',-1.50,-1.75,'Oscuro','Oscuro','Pasta','Azul',71),
+(4,4,'GreenGreen',1.25,1.75,'Transparente','Transparente','Flotante','Verde',80),
+(5,1,'GlassGlass',-3.20,-3.75,'Oscuro','Oscuro','Flotante','Naranje',51),
+(6,3,'Affledour Start',-4.20,-4.20,'Oscuro','Oscuro','Metálica','Aluminio',80),
+(7,3,'Affledour Start',-3.25,-3.25,'Transparente','Transparente','Metálica','Aluminio',75);
 
 INSERT INTO opticsSch.sales (sales_id, sales_date, employee_employee_id, client_client_id) VALUES
 (1,'2025-05-05 00:00:00',1,1),
